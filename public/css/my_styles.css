@@ -1,4 +1,4 @@
-.button {
+.button, .primary-button {
     background-color: blue;
     color: white;
     padding-top: 5px;
@@ -12,10 +12,54 @@
     -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
   }
 
-  .button:hover {
+  .button:hover, .primary-button:hover {
     background-color: darkblue;
   }
 
-  .button:active {
+  .button:active, .primary-button:active {
     background-color: blue;
+  }
+
+  .secondary-button {
+    background-color: gray;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+    box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+  }
+
+  .secondary-button:hover {
+    background-color: darkgray;
+  }
+
+  .secondary-button:active {
+    background-color: gray;
+  }
+
+  .success-button {
+    background-color: green;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+    box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+  }
+
+  .success-button:hover {
+    background-color: darkgreen;
+  }
+
+  .success-button:active {
+    background-color: green;
   }
