@@ -1,3 +1,7 @@
+* {
+  box-sizing: ;
+}
+
 .button, .primary-button {
     background-color: blue;
     color: white;
@@ -62,4 +66,83 @@
 
   .success-button:active {
     background-color: green;
+  }
+
+  .danger-button {
+    background-color: red;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+    box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+  }
+
+  .danger-button:hover {
+    background-color: darkred;
+  }
+
+  .danger-button:active {
+    background-color: red;
+  }
+
+  .warning-button {
+    background-color: orange;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+    box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+  }
+
+  .warning-button:hover {
+    background-color: darkorange;
+  }
+
+  .warning-button:active {
+    background-color: orange;
+  }
+
+  .info {
+    background-color: cyan;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+
+    box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    -webkit-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+    -moz-box-shadow: 2px -1px 66px 39px rgba(0, 0, 0, 0.33) inset;
+  }
+
+  .info:hover {
+    background-color: darkcyan;
+  }
+
+  .info:active {
+    background-color: cyan;
+  }
+
+  .primary-unob {
+    color: blue;
+    background-color: white;
+    border-color: blue;
+    border: 2px solid;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 8px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
   }
